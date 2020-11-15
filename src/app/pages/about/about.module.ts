@@ -6,13 +6,15 @@ import { IonicModule } from '@ionic/angular';
 import { AboutPage } from './about';
 import { PopoverPage } from '../about-popover/about-popover';
 import { AboutPageRoutingModule } from './about-routing.module';
+import { NgApexchartsModule } from "ng-apexcharts";
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AboutPageRoutingModule
+    AboutPageRoutingModule,
+    NgApexchartsModule
   ],
   declarations: [AboutPage, PopoverPage],
   entryComponents: [PopoverPage],
